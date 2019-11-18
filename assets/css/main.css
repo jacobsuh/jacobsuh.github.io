@@ -348,6 +348,7 @@
 	input[type="password"],
 	input[type="email"],
 	input[type="tel"],
+	input,
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -567,6 +568,16 @@
 			border-radius: 0;
 			padding: 0;
 		}
+
+	/* Recaptcha */
+	
+	.rc-anchor-light.rc-anchor-normal {
+		border: 1px solid #a9a9a9;
+	}
+	
+	.rc-anchor-light {
+		background: #e0e0e0;
+	}
 
 /* Icon */
 
@@ -1008,7 +1019,7 @@
 		button.special,
 		.button.special {
 			background-color: #000000;
-			color: #1b1f22 !important;
+			color: #ffffff !important;
 			font-weight: 600;
 		}
 
