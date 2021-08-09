@@ -742,7 +742,7 @@
 
 				ul.icons li a {
 					border-radius: 100%;
-					box-shadow: inset 0 0 0 1px #000000;
+					/*box-shadow: inset 0 0 0 1px #000000;*/
 					display: inline-block;
 					height: 3rem;
 					line-height: 3rem;
@@ -1242,8 +1242,8 @@
 		#header .content {
 			border-style: solid;
 			border-color: #000000;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
+			/*border-top-width: 1px;
+			border-bottom-width: 1px;*/
 			max-width: 100%;
 		}
 
@@ -1284,13 +1284,13 @@
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #000000;
+			/*border: solid 1px #000000;*/
 			border-radius: 4px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #000000;
+				/*border-left: solid 1px #000000;*/
 			}
 
 				#header nav ul li:first-child {
@@ -1311,6 +1311,7 @@
 
 					#header nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
+						font-weight: bold;
 					}
 
 					#header nav ul li a:active {
